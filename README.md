@@ -17,29 +17,36 @@ Step 1 – Setup
 • Initialize empty list: tasks = []. 
 • Define functions with pass. 
 • Add a while loop for menu. 
+
 Step 2 – Add Task 
 • Take input: Task description. 
 • Limit to 8 tasks. 
 • Assign unique task ID. 
 • Default status = “Pending”. 
 • Append to list. 
+
 Step 3 – View Tasks 
 • If empty → print “No tasks available.” 
 • Else → print all tasks with ID, Task, Status. 
+
 Step 4 – Update Task 
 • Input Task ID. 
 • If exists → change description. 
 • Confirm update. 
+
 Step 5 – Mark Task as Done 
 • Input Task ID. 
 • If exists → change status from Pending → Done. 
 • Confirm update. 
+
 Step 6 – Delete Task 
 • Input Task ID. 
 • If exists → remove task. 
 • Confirm deletion. 
+
 Step 7 – Exit 
 • Break loop when user chooses Exit. 
+
 Step 8 – Testing 
 • Add 3–4 tasks. 
 • Mark one as Done. 
